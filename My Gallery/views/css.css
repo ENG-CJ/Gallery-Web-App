@@ -1,0 +1,28 @@
+.grids{
+
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.viewCard{
+    width: 60%;
+}
+@media only screen and (max-width: 600px) {
+    .grids {
+        display: flex;
+        flex-direction: column;
+       margin-right: 20px;
+        grid-gap: 50px;
+        justify-content: center;
+        
+    }
+
+    .viewCard{
+        width: 100%;
+    }
+  }
